@@ -1,0 +1,25 @@
+Algoritmo:
+Ingrsar 3 días de la semana y ordenarlos de forma ascendente
+
+Variables: día1, día2, día3, resultado
+Pseudocódigo:
+  Inicio
+    Leer día1, día2, día3
+
+    Si (día1 > día2)
+      Si (día2 > día3)
+        entonces imprimir "día3, día2, día1"
+      Sino
+        Si (día1 > día3)
+          entonces imprimir "día2, día3, día1"
+        Sino
+          entonces imprimir "día2, día1, día3"
+    Sino
+      Si (día1 > día3)
+        entonces imprimir "día3, día1, día2"
+      Sino
+        Si (día2 > día3)
+          entonces imprimir "día1, día3, día2"
+        Sino
+          entonces imprimir "día1, día2, día3"
+  Fin
